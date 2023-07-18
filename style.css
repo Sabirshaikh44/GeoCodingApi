@@ -1,0 +1,36 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #d63031;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+h3{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.container > *{
+    padding: 0.653rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container input{
+    width: 50vw;
+    font-size: 1.2rem;
+}
+button{
+    background: #0a0202;
+    color: white;
+    margin-top: 1rem;
+}
