@@ -6,7 +6,7 @@ let address = "";
  })
 const getCord = async () =>{
     if(address){
-        const res = await fetch(`https://maps.googleapis.com/maps/api/geocode/json?address=${address}&key=AIzaSyDa9YpMUOQ4lyTonNUVSB14P7FN3J-BcQA`)
+        const res = await fetch(`https://maps.googleapis.com/maps/api/geocode/json?address=${address}&key=API_KEY`)
         const data = await res.json()
         console.log(data?.results[0]?.geometry?.location)
         Swal.fire({
